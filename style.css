@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  font-family: open sans, sans-serif;
+}
+.balls__svg {
+  position: absolute;
+  width: 125px;
+  bottom: 0;
+  right: 0;
+}
+.text__container {
+  width: 50%;
+  height: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid orange;
+  border-width: ;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 4rem;
+}
+span {
+  color: orange;
+  font-weight: 900;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+a {
+  color: orange;
+  margin: 0 1rem;
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+h1,
+h3 {
+  padding: 0;
+}
